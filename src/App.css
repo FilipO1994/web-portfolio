@@ -1,4 +1,4 @@
-/************ Custom Font ************/
+/* *********** Custom Font *********** */
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -92,7 +92,6 @@ p.success {
 p.danger {
 	color: red;
 }
-
 
 /************ Navbar Css ************/
 nav.navbar {
@@ -513,7 +512,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 	max-width: 100%;
   }
     */
-*/
 
 /************ Contact Css ************/
 .contact {
