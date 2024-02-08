@@ -18,8 +18,7 @@ export const Contact = () => {
 		const areInputsEmpty = Array.from(inputs).some(input => input.value.trim() === '')
 
 		if (!isFormValid || areInputsEmpty) {
-			
-			notifyError('Please fill all fields.') 
+			notifyError('Please fill all fields.')
 			return
 		}
 
@@ -51,8 +50,7 @@ export const Contact = () => {
 		backgroundRepeat: 'no-repeat',
 		opacity: '0.8',
 		width: '100%',
-		height: '700px', // Ustaw wysokość, aby dopasować do potrzeb
-		// Inne stylizacje, jeśli są potrzebne
+		height: '700px',
 	}
 
 	return (
@@ -60,16 +58,7 @@ export const Contact = () => {
 			<Container>
 				<Row className="align-items-center">
 					<Col size={12} md={6}>
-						{/* <TrackVisibility>
-							{({ isVisible }) => (
-								<img
-									className={isVisible ? 'animate__animated animate__zoomIn' : ''}
-									src={contactImg}
-									alt="Contact Us"
-									// style={{ borderRadius: '50%' }}
-								/>
-							)}
-						</TrackVisibility> */}
+						{/* empty col */}
 					</Col>
 					<Col size={12} md={6}>
 						<TrackVisibility>
