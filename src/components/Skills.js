@@ -56,29 +56,29 @@ export const Skills = () => {
 	]
 
 	const skillProgress = {
-		'HTML5': 99,
-		'CSS3': 99,
-		'JavaScript (ES6+)':95,
-		'React':90,
-		'Redux':80,
-		'Magento':45,
-		'Axios':90,
-		'jQuery':90,
-		'Typescript (in progress)':20,
-		'Bootstrap':90,
-		'SASS/SCSS':80,
-		'Tailwind CSS':99,
-		'Styled Components':99,
-		'CSS Modules':99,
-		'AJAX':60,
-		'Npm':50,
-		'GIT':50,
-		'RESTful APIs':99,
-		'Context API':99,
-		'Unit Testing (React Testing Library)':30,
-		'Debugging and DevTools':60,
+		HTML5: 99,
+		CSS3: 99,
+		'JavaScript (ES6+)': 95,
+		React: 90,
+		Redux: 80,
+		Magento: 45,
+		Axios: 90,
+		jQuery: 90,
+		'Typescript (in progress)': 20,
+		Bootstrap: 90,
+		'SASS/SCSS': 80,
+		'Tailwind CSS': 99,
+		'Styled Components': 99,
+		'CSS Modules': 99,
+		AJAX: 60,
+		Npm: 50,
+		GIT: 50,
+		'RESTful APIs': 99,
+		'Context API': 99,
+		'Unit Testing (React Testing Library)': 30,
+		'Debugging and DevTools': 60,
 		'Basic Graphic Design Skills (for UI/UX collaboration)': 80,
-		'Gulp':20
+		Gulp: 20,
 	}
 
 	const [hasScrolled, setHasScrolled] = useState(false)
@@ -102,7 +102,7 @@ export const Skills = () => {
 	return (
 		<section className={`skills`} id="skills">
 			<Container>
-				<Row>
+				<Row className="skills-scale">
 					<Col>
 						<div className={`skill-bx animate__animated ${hasScrolled ? 'animate__slideInUp' : ''}`}>
 							<h2>Tech Stack</h2>

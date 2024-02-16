@@ -362,6 +362,12 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .progress-circle {
 	margin: 10px;
 }
+@media only screen and (max-width: 576px) {
+	.skills-scale {
+		transform: scale(0.8);
+		transform: translateY(100px);
+		padding: 60px;
+}}
 
 /************ Projects Css ************/
 .project {
