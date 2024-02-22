@@ -363,11 +363,28 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 	margin: 10px;
 }
 @media only screen and (max-width: 576px) {
+	.banner img {
+		max-width: 50%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
 	.skills-scale {
 		transform: scale(0.8);
 		transform: translateY(100px);
 		padding: 60px;
-}}
+		h2 {
+			font-size: 2em;
+		}
+		p {
+			font-size: 0.8em;
+		}
+		.skill-bx {
+			padding: 30px 20px;
+		}
+	}
+}
 
 /************ Projects Css ************/
 .project {
