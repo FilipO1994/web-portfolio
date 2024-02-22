@@ -70,7 +70,7 @@ export const Banner = () => {
 							</button>
 						</Link>
 					</Col>
-					<Col xs={12} md={6} xl={5}>
+					<Col xs={4} md={6} xl={5}>
 						{' '}
 						<TrackVisibility once>
 							{({ isVisible }) => (

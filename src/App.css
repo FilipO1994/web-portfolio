@@ -362,29 +362,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .progress-circle {
 	margin: 10px;
 }
-@media only screen and (max-width: 576px) {
-	.banner img {
-		max-width: 50%;
-		height: auto;
-		display: block;
-		margin: 0 auto;
-	}
-
-	.skills-scale {
-		transform: scale(0.8);
-		transform: translateY(100px);
-		padding: 60px;
-		h2 {
-			font-size: 2em;
-		}
-		p {
-			font-size: 0.8em;
-		}
-		.skill-bx {
-			padding: 30px 20px;
-		}
-	}
-}
 
 /************ Projects Css ************/
 .project {
@@ -632,4 +609,54 @@ button[disabled] {
 	color: #fff;
 	letter-spacing: 0.5px;
 	margin-top: 20px;
+}
+@media only screen and (max-width: 576px) {
+	.banner h1 {
+		font-size: 3em;
+	}
+	.banner img {
+		max-width: 50%;
+		height: auto;
+		display: none;
+		margin: 0 auto;
+	}
+
+	.skills-scale {
+		transform: translateY(100px);
+		padding: 60px;
+		h2 {
+			font-size: 2em;
+		}
+		p {
+			font-size: 0.8em;
+		}
+		.skill-bx {
+			padding: 30px 20px;
+		}
+	}
+	.project {
+		.nav.nav-pills .nav-link {
+			font-size: 12px;
+		}
+		h2 {
+			font-size: 2em;
+		}
+		p {
+			font-size: 0.8em;
+		}
+	}
+	.contact {
+		h2 {
+			font-size: 2em;
+			text-align: center;
+		}
+
+		form input,
+		form textarea {
+			padding: 9px 13px;
+		}
+		form button{
+			width: 100vw;
+		}
+	}
 }
